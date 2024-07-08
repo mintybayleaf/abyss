@@ -1,5 +1,4 @@
 function validAnagram(a, b){
-  // add whatever parameters you deem necessary - good luck!
   const chars = Object.fromEntries('abcdefghijklmnopqrstuvwxyz'.split('').map((letter) => [letter, 0]))
   for (const c of a) {
     chars[c] = chars[c] + 1
